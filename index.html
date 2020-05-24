@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"> </script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+
+    <a-scene>
+      <a-assets>
+        <img src = "heart.png" id = "heart">
+      </a-assets>
+
+      <a-entity particle-system="preset: default; color: #800,#FF5500, #FFF; particleCount: 2000;" position="0 0 -5" rotation="" scale="" visible="true"></a-entity>
+     
+    </a-scene>
+  </body>
+</html>
